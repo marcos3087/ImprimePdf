@@ -5,7 +5,7 @@ if(len(sys.argv)==1):
     
 else:
     nombol = sys.argv[1]
-    pdf_file = r'\\BOXSTER\Senior\temp\{}'
+    pdf_file = r'\\Servidor\temp\{}'
 
     final_text = pdf_file.format(nombol)
     #final_text = "//BOXSTER/Senior/temp/"+nombol
